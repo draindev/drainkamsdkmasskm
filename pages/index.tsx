@@ -129,8 +129,8 @@ const Home: NextPage = () => {
           ...presaleContract,
           functionName: 'maxContribution'
         },
-
-
+	query:{
+        enabled: account.isConnected,
       }
     },
 
