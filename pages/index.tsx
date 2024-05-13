@@ -130,10 +130,6 @@ const Home: NextPage = () => {
           functionName: 'maxContribution'
         },
 
-      ],
-      query:{
-        enabled: account.isConnected,
-
 
       }
     },
